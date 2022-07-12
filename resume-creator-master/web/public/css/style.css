@@ -1,0 +1,106 @@
+.ThemeChanger{
+    float: right;
+}
+#labelThemeToggler{
+    font-weight: bold;
+}
+.btn-signup{
+    color: #fff;
+    background-color: rgb(255, 123, 0);
+    font-weight: bold;
+    border: transparent;
+}
+.btn-signup:hover{
+    color: rgb(255, 123, 0); 
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 123, 0);
+}
+.dv-tabs{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 50%;
+}
+.dvOne-tab, .dvTwo-tab, .dvThree-tab{
+    background-color: #fff;
+    border: 3px solid rgb(203, 209, 203);
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.dvOne-tab:hover, .dvTwo-tab:hover, .dvThree-tab:hover{
+    background-color:  rgb(255, 123, 0);
+    border: none
+    
+}
+.tabs-strings{
+    text-align: center;     
+}
+
+.line-tabs{
+    width: 20px;
+    height: 10px;
+    background-color: rgb(235, 243, 235);
+    margin-top: 30px;
+}
+.form-group{
+    margin-top: 10px;
+}
+.GrpSocialLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.form2-inputs{
+    width: 90%;
+}
+.input{
+    width: 90%;
+    height: 40px;
+}
+input[type=text]:focus{
+    border: blue;
+}
+#optCountries{
+    
+    width: 45%;
+    height: 40px;
+
+}
+#optCountries option {
+    font-size: 14px;
+}
+.social-icon-svg{
+    color: rgb(120, 165, 218);
+}
+#textareaSummary{
+    height: 10rem;
+}
+
+
+
+@media (max-width:992px){
+    .form2-inputs{
+        width: 85%
+    }
+}
+@media (max-width:770px){
+    .form2-inputs{
+        width: 80%
+    }
+}
+@media (max-width:420px){
+    .form2-inputs{
+        max-width: 70%
+    }
+}
+@media (max-width:290px){
+    .form2-inputs{
+        max-width: 60%
+    }
+}

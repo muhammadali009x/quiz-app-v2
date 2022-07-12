@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Resume Creator</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-form" id="login-form">
+            <h2>Create New Account</h2>
+            <form id="profileInputForm1">
+                <div class="form-group">
+                    <div class="form-group  col-md-12">
+                        <input type="email" class="input" id="email" placeholder="Email Address" required
+                            autocomplete="on">
+                        <span id="required-mark" style="color: red;"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-group  col-md-12">
+                        <input type="password" class="input" id="siguppassword" placeholder="Password" required>
+                        <span id="required-mark" style="color: red;"></span>
+                    </div>
+                    <div class="form-group  col-md-12">
+                        <input type="password" class="input" id=sigupConfpassword" placeholder="Confirm Password    " required>
+                        <span id="required-mark" style="color: red;"></span>
+                    </div>
+                </div>
+
+                <div class="form-group  col-md-12">
+                    <input type="submit" class="btn-signup btn-lg" value="Register" />
+                    <label for="error-emptyfields" id="error-emptyfields" style="color: red;"></label>
+                </div>
+                <div class="form-group col-md-12">
+                    <a href="./login.html" class="CreateNewAccount">Create New One?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

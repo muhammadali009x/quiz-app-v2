@@ -1,0 +1,14 @@
+{
+  "name": "resume-creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web/index.js",
+  "scripts": {
+    "start": "node web/index.js"
+  },
+  "author": "arssheikh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

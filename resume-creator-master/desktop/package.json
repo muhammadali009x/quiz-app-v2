@@ -1,0 +1,17 @@
+{
+  "name": "resume-creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "arssheikh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
